@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1538847775 source:c:\users\adriana\documents\quadtree\main.cpp
+	<windows.h>
+	<ctype.h>
+	<math.h>
+	<GL/glut.h>
+	"qt.h"
+	<string>
+	"fstream"
+
+976692172 c:\users\adriana\downloads\quadtree\glut\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1537888940 source:c:\users\adriana\documents\quadtree\src\node.cpp
+	"node.h"
+
+1537888940 c:\users\adriana\documents\quadtree\include\node.h
+	<utility>
+	<vector>
+	<math.h>
+
+1538847445 source:c:\users\adriana\documents\quadtree\src\qt.cpp
+	"qt.h"
+
+1538853113 c:\users\adriana\documents\quadtree\include\qt.h
+	"node.h"
+	<iostream>
+	<math.h>
+
