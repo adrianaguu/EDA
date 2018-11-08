@@ -29,3 +29,28 @@
 	<iostream>
 	<math.h>
 
+1538847775 source:c:\users\adriana\documents\eda\quadtree\main.cpp
+	<windows.h>
+	<ctype.h>
+	<math.h>
+	<GL/glut.h>
+	"qt.h"
+	<string>
+	"fstream"
+
+1538853113 c:\users\adriana\documents\eda\quadtree\include\qt.h
+	"node.h"
+	<iostream>
+	<math.h>
+
+1537888940 c:\users\adriana\documents\eda\quadtree\include\node.h
+	<utility>
+	<vector>
+	<math.h>
+
+1537888940 source:c:\users\adriana\documents\eda\quadtree\src\node.cpp
+	"node.h"
+
+1540582556 source:c:\users\adriana\documents\eda\quadtree\src\qt.cpp
+	"qt.h"
+

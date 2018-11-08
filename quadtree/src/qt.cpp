@@ -118,24 +118,15 @@ void qt:: split (node**& rectangle )
         for (int j=0;j<2;j++)
         {
             (*rectangle)->children[ind]=new node(make_pair(miniX+(dis*j),miniY+(dis*i)),make_pair(miniX+(dis+dis*j),miniY+(dis+dis*i)));
-            /*cout<<"minx: "<<(*rectangle)->children[ind]->cmin.first<<endl;
-             cout<<"miny: "<<(*rectangle)->children[ind]->cmin.second<<endl;
-              cout<<"maxx: "<<(*rectangle)->children[ind]->cmax.first<<endl;
-               cout<<"maxy: "<<(*rectangle)->children[ind]->cmax.second<<endl;*/
+
             ind++;
         }
     }
-   /* cout<<"rec: ";
-     for(int unsigned i=0;i<(*rectangle)->data.size();i++)
-            cout<<(*rectangle)->data[i].first<<","<<(*rectangle)->data[i].second<<"--";
-    cout<<endl;
-    node **p;*/
+
     for(int unsigned i=0;i<(*rectangle)->data.size();i++)
     {
 
 
-        //qtfind((*rectangle)->data[i],p);
-        //(*p)->data.push_back((*rectangle)->data[i]);
         addpoint((*rectangle)->data[i]);
     }
     (*rectangle)->data.resize(0);
